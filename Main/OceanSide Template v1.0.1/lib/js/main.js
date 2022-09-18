@@ -134,21 +134,21 @@ $(document).ready(function () {
       })
 
   //animation for share button
-  $('.share .social').addClass('hide-link');
-  $('.share>.share-button>img').on( 'click', function(){
-    $('.share .social').removeClass('hide-link');
-    $('.share .social').addClass('show-link');
-    $('.share>.share-button').removeClass('show-link');
-    $('.share>.share-button').addClass('hide-link');
-    return false;
-  });
+  // $('.share .social').addClass('hide-link');
+  // $('.share>.share-button>img').on( 'click', function(){
+  //   $('.share .social').removeClass('hide-link');
+  //   $('.share .social').addClass('show-link');
+  //   $('.share>.share-button').removeClass('show-link');
+  //   $('.share>.share-button').addClass('hide-link');
+  //   return false;
+  // });
 
-  $('body').on( 'click', function() {
-    $('.share .social').removeClass('show-link');
-    $('.share .social').addClass('hide-link');
-    $('.share>.share-button').removeClass('hide-link');
-    $('.share>.share-button').addClass('show-link');
-  });
+  // $('body').on( 'click', function() {
+  //   $('.share .social').removeClass('show-link');
+  //   $('.share .social').addClass('hide-link');
+  //   $('.share>.share-button').removeClass('hide-link');
+  //   $('.share>.share-button').addClass('show-link');
+  // });
 
   //add array of menu
   var arrayMenuAnchor = []
